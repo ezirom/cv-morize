@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Guy Morize · Parcours</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav id="navbar">
+  <a href="index.html" class="nav-logo">Guy Morize</a>
+  <button class="nav-toggle" id="navToggle" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="index.html">Accueil</a></li>
+    <li><a href="apropos.html">À propos</a></li>
+    <li><a href="parcours.html" class="active">Parcours</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+
+<main class="page-main">
+  <div class="page-header reveal">
+    <div class="page-num">02 · Parcours</div>
+    <h1>30 ans de missions IT,<br><em>un fil conducteur sécurité.</em></h1>
+    <a href="CV-Guy-Morize.pdf" class="btn-ghost" download>Télécharger le CV</a>
+  </div>
+
+  <!-- MISSIONS FREELANCE -->
+  <div class="timeline-section reveal">
+    <div class="section-label">Consultant Freelance — depuis juin 2023</div>
+
+    <div class="mission-card">
+      <div class="mission-header">
+        <div>
+          <div class="mission-company">GTT (Gaztransport & Technigaz)</div>
+          <div class="mission-role">Chef de Projet IT — Modern Workplace & Intégration Web</div>
+        </div>
+        <div class="mission-period">Mai 2025 – Mars 2026 · 11 mois</div>
+      </div>
+      <div class="mission-sector">Ingénierie industrielle · GNL · Maritime</div>
+
+      <div class="mission-body">
+        <div class="mission-volet">
+          <div class="volet-title">Volet 1 — Modern Workplace (9 mois)</div>
+          <p>Configuration et sécurisation de l'environnement M365 pour ~1 000 collaborateurs, 1 400 mailboxes, 8 To de documents.</p>
+          <ul>
+            <li>Appel d'offres intégrateur : évaluation des offres, choix final et validation contractuelle</li>
+            <li>EntraID / SharePoint / Teams : gouvernance et sécurisation — SSO, MFA, Conditional Access, RBAC, PIM</li>
+            <li>Endpoint (PC & smartphones) : Intune, Autopilot, Zero Touch Provisioning, Apple Business Manager</li>
+            <li>Migration Exchange 2016 → Exchange SE (hybride) et documents SAN → SharePoint/Teams</li>
+            <li>Purview DLP : classification des données, règles DLP basées sur Microsoft Defender for Endpoint</li>
+            <li>Stratégie de licensing : rédaction de l'appel d'offres et évaluation des offres</li>
+            <li>Appel d'offres opérateur mobile : cahier des charges, organisation des soutenances, choix final</li>
+          </ul>
+        </div>
+        <div class="mission-volet">
+          <div class="volet-title">Volet 2 — Intégration d'applications web (2 mois)</div>
+          <ul>
+            <li>Pilotage de la rédaction des DAT et DEX, processus de validation, intégration EntraID (SSO)</li>
+            <li>Audit de sécurité applicative : rédaction du cahier des charges, consultation et organisation</li>
+            <li>Du DAT au Go live en 10 semaines, y compris le move to run</li>
+          </ul>
+        </div>
+      </div>
+      <div class="mission-env"><strong>Environnement :</strong> EntraID, Intune, Autopilot, Purview DLP, Teams, SharePoint, OneDrive, Exchange Online, Exchange SE, ShareGate, Keycloak, WAF UBIKA, SSO</div>
+    </div>
+
+    <div class="mission-card">
+      <div class="mission-header">
+        <div>
+          <div class="mission-company">Bouygues Construction</div>
+          <div class="mission-role">Chef de Projet — Audit VOC (Vulnerability Operation Center)</div>
+        </div>
+        <div class="mission-period">Fév. 2025 – Mars 2025 · 2 mois</div>
+      </div>
+      <div class="mission-sector">BTP · Construction</div>
+      <div class="mission-body">
+        <p>Audit complet du Vulnerability Operation Center suite à un défaut de traitement des vulnérabilités.</p>
+        <ul>
+          <li>Élaboration du référentiel d'évaluation (25 points de contrôle, basé sur l'ISO 27001, CIS et NIST)</li>
+          <li>Conduite d'interviews (RSSI, VOC, SOC, responsables de processus), revue de l'outillage</li>
+          <li>Rédaction du rapport d'audit et restitutions</li>
+        </ul>
+        <div class="mission-result">Recommandations organisationnelles et opérationnelles : processus d'escalade, points de contrôle, outillage complémentaire (DevSecure), KPI de supervision, canal d'échange SOC.</div>
+      </div>
+      <div class="mission-env"><strong>Environnement :</strong> Qualys, Acunetix, Pentera, ReNgine, Hackuity</div>
+    </div>
+
+    <div class="mission-card">
+      <div class="mission-header">
+        <div>
+          <div class="mission-company">Sofrecom / DSI (filiale Orange)</div>
+          <div class="mission-role">Chef de Projet Transformation M365</div>
+        </div>
+        <div class="mission-period">Sept. 2023 – Déc. 2024 · 14 mois</div>
+      </div>
+      <div class="mission-sector">Télécoms · Groupe Orange</div>
+      <div class="mission-body">
+        <p>Hybridation de 3 000 postes de travail pour mise en conformité avec la Politique d'Accès Conditionnel EntraID du Groupe Orange.</p>
+        <ul>
+          <li>Pilotage de bout en bout : coordination Sofrecom (métier, IT, Sécurité) et Orange (IAM, M365, Sécurité)</li>
+          <li>Pilotage des chantiers sécurité : sécurisation AD (tier d'administration), IAM, MFA, Conditional Access</li>
+          <li>Stratégie et plan de migration de 3 000 postes, plan de communication, reporting hebdomadaire (KPI, risques)</li>
+          <li>Organisation support conforme ITIL : onboarding, enrôlement MFA, gestion des incidents</li>
+        </ul>
+      </div>
+      <div class="mission-env"><strong>Environnement :</strong> M365, Azure AD / EntraID, AD Connect, MFA, IAM IBM, Active Directory, Jira, ITIL</div>
+    </div>
+
+    <div class="mission-card">
+      <div class="mission-header">
+        <div>
+          <div class="mission-company">Sofrecom / DSI — en parallèle</div>
+          <div class="mission-role">Chef de Projet Sécurité (EDR & PKI)</div>
+        </div>
+        <div class="mission-period">Sept. 2023 – Déc. 2024 · en parallèle</div>
+      </div>
+      <div class="mission-sector">Télécoms · Groupe Orange</div>
+      <div class="mission-body">
+        <p>Déploiement de l'EDR Microsoft Defender et de la PKI pour 3 000 PC (France, Maroc, Tunisie), intégration dans le tenant Orange.</p>
+        <ul>
+          <li>EDR : prérequis techniques, RBAC, configuration réseau (FW & Proxy), onboarding, formation HelpDesks et SOC</li>
+          <li>PKI : déploiement authentification forte, GPO, tests, stratégie de généralisation, renouvellement certificats</li>
+        </ul>
+      </div>
+      <div class="mission-env"><strong>Environnement :</strong> Microsoft Defender EDR, Microsoft Sentinel, SafeNet, Active Directory, GPO</div>
+    </div>
+
+    <div class="mission-card">
+      <div class="mission-header">
+        <div>
+          <div class="mission-company">Orange Innovation (5 000 collaborateurs)</div>
+          <div class="mission-role">Chef de Projet Sécurité — Gestion des risques projets</div>
+        </div>
+        <div class="mission-period">Juil. 2023 – Sept. 2023 · 3 mois</div>
+      </div>
+      <div class="mission-sector">Télécoms · Groupe Orange</div>
+      <div class="mission-body">
+        <p>Conception d'un processus de gestion des risques sécurité dans les projets (ISP) pour une entité représentant 6 directions et 3 filiales.</p>
+        <ul>
+          <li>État des lieux : questionnaire d'évaluation, entretiens avec CSO, Risk Managers et Chefs de Projet</li>
+          <li>Benchmark : entretiens d'experts du Groupe Orange, synthèse et restitution</li>
+          <li>Livrable : processus cible de gestion des risques — description étape par étape, inputs/outputs, livrables, RACI</li>
+        </ul>
+      </div>
+      <div class="mission-env"><strong>Environnement :</strong> Security by Design, ISO 27005, Clarity</div>
+    </div>
+  </div>
+
+  <!-- POSTES EN ENTREPRISE -->
+  <div class="timeline-section reveal">
+    <div class="section-label">Sofrecom — filiale Orange · Mars 1999 – Mai 2023 · 24 ans</div>
+
+    <div class="mission-card mission-card--major">
+      <div class="mission-header">
+        <div>
+          <div class="mission-company">Sofrecom / Orange</div>
+          <div class="mission-role">CISO & Directeur des Infrastructures IT</div>
+        </div>
+        <div class="mission-period">Fév. 2016 – Mai 2023 · 7 ans</div>
+      </div>
+      <div class="mission-sector">Double rôle · Budget ~3M€</div>
+      <div class="mission-body">
+        <div class="mission-volet">
+          <div class="volet-title">Direction Infrastructure IT</div>
+          <ul>
+            <li>Direction du département Infrastructures réseau (LAN, WLAN, WAN), stockage, virtualisation, bureautique, support</li>
+            <li>Budget ~3M€ : infogérance WAN 600k€/an, bureautique 1,2M€/an, flotte mobile 360k€/an</li>
+            <li>DSI Adjoint : représentation de la DSI au CoDir, gestion des projets critiques</li>
+            <li>Management d'experts techniques (Sécurité, Système, Réseau, Support) — équipes France, Maroc, Tunisie</li>
+            <li>Déploiement WAN MPLS (backbone OBS), SD-WAN, VPN IPSec</li>
+            <li>Création et déploiement d'un site de backup : infra réseau, stockage, sauvegarde, infrastructure virtuelle</li>
+          </ul>
+        </div>
+        <div class="mission-volet">
+          <div class="volet-title">CISO / CSO deputy</div>
+          <ul>
+            <li>Interface avec les entités sécurité du Groupe Orange : politiques sécurité, sécurisation des AD, supervision des IP publiques</li>
+            <li>SMSI : rédaction de politiques (accès SI, mots de passe, continuité d'activité) et procédures</li>
+            <li>Pilote de sécurité des contrats Centre de Service (&gt;1 500 collaborateurs) : PAS basé sur ISO 27002 et guides ANSSI</li>
+            <li>Gestion des risques IT, gestion des incidents de sécurité, patch management, gestion des vulnérabilités</li>
+            <li>Responsable BCCM : PCA/PRA, gestion de crise, tests annuels et simulation de crise</li>
+            <li>Déploiement solutions sécurité : AlienVault OSSIM (SIEM), Greenbone OpenVAS, Bastion Wallix, Graylog, FortiGate IDS</li>
+          </ul>
+        </div>
+      </div>
+      <div class="mission-env"><strong>Environnement :</strong> FortiGate, CISCO, Linux, Windows, VMWare, Dell/Hitachi/Exagrid</div>
+    </div>
+
+    <div class="mission-card">
+      <div class="mission-header">
+        <div>
+          <div class="mission-company">Sofrecom / Orange</div>
+          <div class="mission-role">Directeur du Département Architecture Technique & Infrastructure</div>
+        </div>
+        <div class="mission-period">Mai 2010 – Nov. 2019 · 9 ans</div>
+      </div>
+      <div class="mission-body">
+        <ul>
+          <li>Management de 10 experts (architectes, intégrateurs, admins système/réseau, sécurité, DBA) — France / Maroc</li>
+          <li>Direction de projets clients à l'international : optimisation datacenters Arabie Saoudite (830k€), cloud public Sénégal, conseil ITIL Côte d'Ivoire</li>
+          <li>Création d'un Centre de Service nearshore au Maroc : 11 projets, 35 recrutements, CA 3M€ en 2019</li>
+          <li>Architecture DAT/DEX (PCA/PRA applicatif), move-to-run, plans de remédiation issus d'audits sécurité</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="mission-card">
+      <div class="mission-header">
+        <div>
+          <div class="mission-company">Sofrecom / Orange</div>
+          <div class="mission-role">Responsable du Pôle Architecture Technique & Support</div>
+        </div>
+        <div class="mission-period">Juil. 2006 – Mai 2010 · 4 ans</div>
+      </div>
+      <div class="mission-body">
+        <ul>
+          <li>Architecture technique et move-to-run des projets TMA Orange — jusqu'à 15 projets en parallèle</li>
+          <li>Management de 10 personnes (France / Maroc)</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- EXPÉRIENCES ANTÉRIEURES -->
+  <div class="timeline-section reveal">
+    <div class="section-label">Expériences antérieures · 1988 – 1999 · 11 ans</div>
+    <div class="early-career">
+      <div class="early-item">
+        <div class="early-company">Multisys (Courbevoie)</div>
+        <div class="early-role">Responsable Delivery & Méthodes · 5 personnes</div>
+        <div class="early-period">1993 – 1999</div>
+      </div>
+      <div class="early-item">
+        <div class="early-company">Aserti (Saint-Ouen)</div>
+        <div class="early-role">Responsable Delivery · 3 personnes</div>
+        <div class="early-period">1991 – 1993</div>
+      </div>
+      <div class="early-item">
+        <div class="early-company">SAMES (Meylan)</div>
+        <div class="early-role">Responsable technique d'affaires & responsable système CAO</div>
+        <div class="early-period">1989 – 1991</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CHIFFRES CLÉS -->
+  <div class="kpi-section reveal">
+    <h2>Chiffres clés</h2>
+    <div class="kpi-grid">
+      <div class="kpi-item"><div class="kpi-num">30 ans</div><div class="kpi-label">Expérience IT grands comptes</div></div>
+      <div class="kpi-item"><div class="kpi-num">24 ans</div><div class="kpi-label">Orange Group / Sofrecom</div></div>
+      <div class="kpi-item"><div class="kpi-num">7 ans</div><div class="kpi-label">Fonction CISO</div></div>
+      <div class="kpi-item"><div class="kpi-num">3 M€</div><div class="kpi-label">Budget annuel géré</div></div>
+      <div class="kpi-item"><div class="kpi-num">3 000</div><div class="kpi-label">Postes migrés M365</div></div>
+      <div class="kpi-item"><div class="kpi-num">3</div><div class="kpi-label">Pays coordonnés (FR, MA, TN)</div></div>
+    </div>
+  </div>
+
+  <div style="text-align:center; margin: 3rem 0;">
+    <a href="contact.html" class="btn-primary">Me contacter</a>
+  </div>
+</main>
+
+<footer>
+  <div class="footer-inner">
+    <span>© 2026 Guy Morize</span>
+    <div class="footer-links">
+      <a href="https://linkedin.com/in/" target="_blank">LinkedIn</a>
+      <a href="mailto:guy.morize@gmx.fr">guy.morize@gmx.fr</a>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
