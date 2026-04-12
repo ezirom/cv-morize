@@ -42,17 +42,7 @@ window.addEventListener('load', () => {
 });
 
 // ===== CONTACT FORM =====
-const form = document.getElementById('contactForm');
-const formSuccess = document.getElementById('formSuccess');
-
-form?.addEventListener('submit', (e) => {
-  e.preventDefault();
-  // Simulate send (replace with real backend/formspree)
-  setTimeout(() => {
-    form.style.display = 'none';
-    formSuccess.style.display = 'block';
-  }, 400);
-});
+// Formulaire géré par Formspree — soumission native via action POST
 
 
 // ===== VIDEO PLAYER =====
