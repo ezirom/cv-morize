@@ -42,7 +42,34 @@ window.addEventListener('load', () => {
 });
 
 // ===== CONTACT FORM =====
-// Formulaire géré par Formspree — soumission native via action POST
+const form = document.getElementById('contactForm');
+const formSuccess = document.getElementById('formSuccess');
+
+form?.addEventListener('submit', async (e) => {
+  e.preventDefault();
+  const btn = form.querySelector('button[type="submit"]');
+  btn.textContent = 'Envoi en cours...';
+  btn.disabled = true;
+
+  try {
+    const response = await fetch('https://formspree.io/f/xpqkaqpb', {
+      method: 'POST',
+      body: new FormData(form),
+      headers: { 'Accept': 'application/json' }
+    });
+
+    if (response.ok) {
+      form.style.display = 'none';
+      formSuccess.style.display = 'block';
+    } else {
+      btn.textContent = 'Erreur — réessayer';
+      btn.disabled = false;
+    }
+  } catch {
+    btn.textContent = 'Erreur — réessayer';
+    btn.disabled = false;
+  }
+});
 
 
 // ===== VIDEO PLAYER =====
