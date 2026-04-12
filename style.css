@@ -185,6 +185,16 @@ body {
   overflow: hidden;
 }
 
+.video-link {
+  display: block;
+  text-decoration: none;
+  border-radius: 12px;
+  overflow: hidden;
+}
+.video-link:hover .video-placeholder { opacity: 0.9; }
+.video-link:hover .video-icon { transform: scale(1.1); border-color: rgba(255,255,255,0.7); }
+.video-icon { transition: transform 0.2s, border-color 0.2s; }
+
 .video-placeholder::before {
   content: '';
   position: absolute;
