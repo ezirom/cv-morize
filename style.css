@@ -118,7 +118,7 @@ body {
 .hero {
   min-height: 100vh;
   display: grid;
-  grid-template-columns: 1fr 420px;
+  grid-template-columns: 1fr 504px;
   align-items: center;
   gap: 4rem;
   max-width: var(--max-w);
@@ -149,7 +149,7 @@ body {
 .hero-title em {
   font-style: italic;
   font-weight: 300;
-  color: var(--navy);
+  color: var(--navy-dark);
 }
 
 .hero-sub {
