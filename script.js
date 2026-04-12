@@ -53,3 +53,14 @@ form?.addEventListener('submit', (e) => {
     formSuccess.style.display = 'block';
   }, 400);
 });
+
+
+// ===== VIDEO PLAYER =====
+function playVideo() {
+  const thumbnail = document.getElementById('videoThumbnail');
+  const iframe = document.getElementById('videoIframe');
+  const src = iframe.getAttribute('data-src');
+  iframe.setAttribute('src', src);
+  thumbnail.style.display = 'none';
+  iframe.style.display = 'block';
+}
